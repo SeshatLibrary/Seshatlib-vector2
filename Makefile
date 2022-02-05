@@ -17,3 +17,6 @@ $(OBJS): $(SRCS)
 	echo "$(SRCS) --> $(OBJS)"
 	$(CC) $(OPTIONS) $(SRCS)
 
+clean:
+	rm *.a
+	rm *.o
